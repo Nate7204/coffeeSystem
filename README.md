@@ -16,7 +16,7 @@ Google App Script to convert Google Sheet input from JotForm into Google Calenda
     'With Nutmeg on top' ]
   ````
 3. formatOrder is called on array to
-  - Remove price text from Order
+  - Remove price text from Order ("Amount: 0.00 USD" and "Total: 0.00 USD")
   - Format Order into user friendly text by removing unnecessary parentheses and commas and adding in line breaks after each individual detail of order
     - Call createLabel to have label begin printing while script finishing. This will convert Order into ZPL Printer language and send an email to POP3/SMTP server for printing
       ````
