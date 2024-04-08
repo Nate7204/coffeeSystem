@@ -48,7 +48,7 @@ Google App Script to convert Google Sheet input from JotForm into Google Calenda
     ````
     Wednesday, Apr 03, 2024 3:20 PM-3:25 PM
     ````
-  - Since Google Calendar requires specific start and end times, above is converted into
+  - Since Google Calendar requires specific start and end times, above is converted into proper Date objects:
     ````
     Wed Apr 03 2024 15:20:00 GMT-0500 (Central Daylight Time)
     Wed Apr 03 2024 15:25:00 GMT-0500 (Central Daylight Time)
